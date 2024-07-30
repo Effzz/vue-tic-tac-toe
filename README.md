@@ -1,45 +1,56 @@
-# zeals-tic-tac-toe
+# zeals.asia - Tic Tac Toe Game
 
-This template should help get you started developing with Vue 3 in Vite.
+A simple Tic Tac Toe game for zeals.asia recruitment test, built with Vue.js, TypeScript, Pinia, and TailwindCSS. This game allows you to save and load game states.
 
-## Recommended IDE Setup
+## Features
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+-   Play Tic Tac Toe on a 3x3 board.
+-   Save and load game states to local storage (with support for multiple slots planned for future enhancements).
+-   Reset the game and view the winner.
+-   Responsive design with TailwindCSS.
 
-## Type Support for `.vue` Imports in TS
+## Setup
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
+1. **Clone the repository:**
 
-## Customize configuration
+    ```bash
+    git clone https://github.com/yourusername/tic-tac-toe-vue.git
+    cd tic-tac-toe-vue
+    ```
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+2. **Install dependencies:**
 
-## Project Setup
+    ```bash
+    npm install
+    ```
 
-```sh
-npm install
-```
+3. **Run the development server:**
 
-### Compile and Hot-Reload for Development
+    ```bash
+    npm run dev
+    ```
 
-```sh
-npm run dev
-```
+4. **Open the application:**
 
-### Type-Check, Compile and Minify for Production
+    ```
+    http://localhost:5173
+    ```
 
-```sh
-npm run build
-```
+## Usage
 
-### Run Unit Tests with [Vitest](https://vitest.dev/)
+-   Click on the board cells to make a move.
+-   Use the "Save Game" button to save the current game.
+-   Use the "Load Game" button to load the game state.
+-   Click "Reset Game" to start a new game.
+-   Winner or draw notifications will be shown when the game ends.
 
-```sh
-npm run test:unit
-```
+## Dependencies
 
-### Lint with [ESLint](https://eslint.org/)
+-   [Vue.js](https://vuejs.org/)
+-   [TypeScript](https://www.typescriptlang.org/)
+-   [Pinia](https://pinia.vuejs.org/)
+-   [TailwindCSS](https://tailwindcss.com/)
 
-```sh
-npm run lint
-```
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
